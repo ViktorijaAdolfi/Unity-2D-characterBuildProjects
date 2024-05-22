@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OtraAina.unity
     guid: a0f2ba27535ad8c489bab2d1b5be1685
+  - enabled: 1
+    path: Assets/Scenes/GreyHamster.unity
+    guid: 82fc6998b69193c4c8da2625475e1a5d
   m_configObjects: {}

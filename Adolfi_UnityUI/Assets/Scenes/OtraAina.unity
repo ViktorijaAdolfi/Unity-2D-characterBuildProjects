@@ -1174,6 +1174,7 @@ GameObject:
   - component: {fileID: 771239944}
   - component: {fileID: 771239943}
   - component: {fileID: 771239942}
+  - component: {fileID: 771239945}
   m_Layer: 5
   m_Name: PelekaisIzvele
   m_TagString: Untagged
@@ -1244,7 +1245,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 771239943}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 771239945}
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GreyHamster
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &771239943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1283,6 +1296,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771239940}
   m_CullTransparentMesh: 1
+--- !u!114 &771239945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771239940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc69d0acf196f1049a391ef603a512a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &879224666
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,8 +1547,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -888.99, y: 473.12}
-  m_SizeDelta: {x: 142.0135, y: 133.7688}
+  m_AnchoredPosition: {x: -869.2451, y: 454.53656}
+  m_SizeDelta: {x: 181.5033, y: 170.9357}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1097262829
 MonoBehaviour:
